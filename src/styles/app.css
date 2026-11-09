@@ -1571,3 +1571,15 @@ footer .brand img {
     padding: 0 5px;
   }
 }
+
+/* Footer and "Planning a night out?" box: floating cards with side margins (same 12px as the header) */
+.cta {
+  padding: 30px 12px;
+}
+footer {
+  width: calc(100% - 24px);
+  max-width: 1176px;
+  margin: 20px auto 12px;
+  border-radius: 32px;
+  border-bottom: 1px solid var(--edge);
+}
